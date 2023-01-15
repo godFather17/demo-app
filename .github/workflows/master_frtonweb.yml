@@ -59,4 +59,4 @@ jobs:
           app-name: 'frtonweb'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_02FCC3CA0A7C4BA491B2862C33DE230E }}
-          package: ./dist/hello-world-app
+          package: ./dist/demo-app
